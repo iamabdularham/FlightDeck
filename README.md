@@ -1,17 +1,18 @@
 # ✈️ FlightDeck - Smart Flight Search Engine
 
-A modern, responsive flight search engine built with React, TypeScript, and the Amadeus API. Features real-time price visualization with instant filter synchronization.
+A modern, responsive flight search engine built with React, TypeScript, and the Amadeus API. Features real-time price visualization, interactive D3.js charts, and instant filter synchronization.
 
 ![FlightDeck](https://via.placeholder.com/800x400?text=FlightDeck+Demo)
 
 ## 🚀 Features
 
-- **Smart Search**: Autocomplete for airports with real-time suggestions
-- **Live Price Graph**: Interactive Recharts visualization that syncs with filters
-- **Instant Filtering**: Filter by stops, price range, airlines, and departure time
-- **Best Value Badge**: Automatically highlights the cheapest flight
-- **Responsive Design**: Works beautifully on desktop, tablet, and mobile
-- **Skeleton Loading**: Smooth loading states for better UX
+- **Smart Search**: Autocomplete for worldwide airports with real-time API integration
+- **Advanced Visualizations**: Interactive D3.js Scatter Plots and Price Distribution histograms
+- **Instant Filtering**: Filter by max duration, direct flights, stops, and airlines
+- **Detailed Itineraries**: Comprehensive modal view with layover calculations and aircraft info
+- **Custom DatePicker**: Built from scratch with React Portals for a flawless UX
+- **Responsive Design**: Mobile-first architecture with collapsible drawers
+- **Skeleton Loading**: Polished loading states for every component
 
 ## 🛠️ Tech Stack
 
@@ -19,10 +20,10 @@ A modern, responsive flight search engine built with React, TypeScript, and the 
 |----------|------------|
 | Framework | React 18 + TypeScript |
 | Build Tool | Vite |
-| Styling | Tailwind CSS |
+| Styling | Tailwind CSS + Shadcn UI |
 | State Management | Zustand |
 | Data Fetching | TanStack Query + Axios |
-| Charts | Recharts |
+| Visualizations | D3.js (Advanced) + Recharts |
 | Icons | Lucide React |
 
 ## 📁 Project Structure

@@ -1,5 +1,5 @@
 # User Stories
-## Flight Search Engine - SkyScanner Pro
+## FlightDeck (formerly SkyScanner Pro)
 
 **Sprint:** MVP Release  
 **Author:** Abdul Arham  

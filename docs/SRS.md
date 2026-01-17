@@ -1,16 +1,16 @@
 # Software Requirements Specification (SRS)
-## Flight Search Engine - SkyScanner Pro
+## FlightDeck (formerly SkyScanner Pro)
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Author:** Abdul Arham  
-**Date:** January 16, 2026  
+**Date:** January 17, 2026  
 
 ---
 
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document specifies the functional and non-functional requirements for the SkyScanner Pro Flight Search Engine web application. It serves as a technical contract between product requirements and engineering implementation.
+This document specifies the functional and non-functional requirements for the FlightDeck Flight Search Engine web application. It serves as a technical contract between product requirements and engineering implementation.
 
 ### 1.2 Scope
 The system provides a single-page application (SPA) for searching, filtering, and visualizing flight options using the Amadeus Self-Service API. The application is client-side rendered with React and communicates with the Amadeus API for flight data.
@@ -23,7 +23,7 @@ The system provides a single-page application (SPA) for searching, filtering, an
 | Styling | Tailwind CSS + ShadcnUI |
 | State Management | Zustand |
 | Data Fetching | Axios + TanStack Query v5 |
-| Charting | Recharts |
+| Charting | D3.js + Recharts |
 | Build Tool | Vite |
 
 ---

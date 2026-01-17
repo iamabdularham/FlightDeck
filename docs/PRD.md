@@ -1,16 +1,16 @@
 # Product Requirements Document (PRD)
-## Flight Search Engine - SkyScanner Pro
+## FlightDeck (formerly SkyScanner Pro)
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Author:** Abdul Arham  
-**Date:** January 16, 2026  
-**Status:** Draft
+**Date:** January 17, 2026  
+**Status:** Feature Complete
 
 ---
 
 ## 1. Executive Summary
 
-SkyScanner Pro is a modern, responsive flight search engine that empowers travelers to discover, compare, and analyze flight options with real-time visual insights. Built with a focus on performance and user experience, it provides instant filtering capabilities with synchronized data visualization.
+FlightDeck is a modern, responsive flight search engine that empowers travelers to discover, compare, and analyze flight options with real-time visual insights. Built with a focus on performance and user experience, it provides instant filtering capabilities with synchronized data visualization.
 
 ---
 
@@ -191,7 +191,7 @@ flowchart TD
 ## 10. Appendix
 
 ### Competitive Analysis
-| Feature | Google Flights | Kayak | SkyScanner Pro |
+| Feature | Google Flights | Kayak | FlightDeck |
 |---------|---------------|-------|----------------|
 | Real-time Graph Sync | ❌ | ❌ | ✅ |
 | Filter Speed | Fast | Medium | Instant |
